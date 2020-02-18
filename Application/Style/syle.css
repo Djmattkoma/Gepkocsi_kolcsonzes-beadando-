@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #404040;
+    padding: 20px;
+    font-size: 40px;
+}
+.header a {
+    text-decoration: none;
+    color: darkred    ;
+    padding:0 20px;
+    border-right: 1px solid gray;
+}
+.header a:last-child {
+    border: none;
+}
+.header a:hover {
+    color: black;
+}
+
+.home-page {
+    margin-top: 100px;
+    font-size: 200px;
+    text-align: center;
+}
+
+.table {
+    margin: 100px auto;
+    width: 1400px;
+}
+.table td {
+    width: 20%;
+    border-bottom: 1px solid gray;
+    line-height: 50px;
+}
+
+.btn {
+    border: none;
+    border-radius: 4px;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+.btn-grn {
+    background-color: #008020;
+    color: lightgrey;    
+}
+.btn-prpl{
+    background-color: #cc0052;
+    COLOR: lightgrey;
+}
+
+.update-section {
+    width: 0;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #0000b3;
+    display: table;
+}
+.update-section label {
+    font-size: 12px;
+}
+.update-section input[type="text"] {
+    width: 150px;
+    padding: 5px;
+}
+.update-section .btn {
+    width: 50%;
+    margin: 8px ;
+}

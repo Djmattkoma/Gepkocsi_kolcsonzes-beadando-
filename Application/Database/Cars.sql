@@ -5,7 +5,3 @@ CREATE TABLE Cars(
     Vintage INT,
     Fuel VARCHAR(10)
 )
-
-INSERT INTO Cars VALUE Id, Producer, Type, Vintage, Fuel
-(),
-(1, "alma")
